@@ -40,3 +40,55 @@ header.masthead {
 {
 margin-top: 20px;
 }
+img.a
+{
+ width: 210px;
+}
+
+.portfolio {
+    padding: 80px 0; /* Add padding to the top and bottom */
+    text-align: center; /* Center align text */
+    margin-bottom: 50px; /* Add margin at the bottom */
+}
+
+.portfolio {
+    padding-top: 50px; /* Add space from the top */
+    padding-bottom: 50px; /* Add space from the bottom */
+    background-color: #f8f9fa; /* Light gray background */
+  }
+  
+  /* Style for the images in the portfolio */
+  .portfolio img {
+    width: 100%; /* Make images fill their container */
+    height: auto; /* Preserve aspect ratio */
+    border-radius: 10px; /* Add rounded corners */
+    margin-bottom: 20px; /* Add space between images */
+  }
+
+  .row
+  {
+    padding-top: 50px;
+  }
+
+ #about
+ {
+    background-color: #108d72 !important;
+ }
+
+ footer
+ {
+background-color: #122250;
+color: #f8f9fa;
+
+ }
+.footer-icons {
+    margin-top: 20px; /* Add space between rows */
+}
+
+.btn-outline-light {
+    color: white !important; /* Make icons white */
+}
+
+.btn-outline-light:hover {
+    color: white !important; /* Make icons white on hover */
+}
