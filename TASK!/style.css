@@ -1,0 +1,42 @@
+.bg-emphasis {
+    background-color: #1c1f3c; /* Replace #ff0000 with your desired color code */
+}
+
+.masthead-avatar {
+    max-width: 200px; /* Adjust the value as needed */
+    height: auto;
+}
+
+#mainNav .navbar-nav .nav-link {
+    color: #ffffff; /* Change to your desired font color */
+}
+#mainNav .navbar-brand {
+    color: #ffffff; /* Change to your desired font color */
+}
+
+header {
+    margin-top: 20px; /* Adjust the value to set the desired space between the navbar and header */
+}
+
+.masthead{
+    padding-top: 50px; /* Adjust the value to set the desired space between the header block and the picture */
+}
+
+header.masthead {
+    background-color: #108d72 !important; /* Apply background color to header with class masthead */
+}
+
+.masthead-avatar {
+    margin-top: 20px; /* Adjust the value to set the desired space between the picture and the text */
+}
+
+.masthead-subheading
+{
+    padding-top: 30px;
+
+}
+
+.page-section-heading
+{
+margin-top: 20px;
+}
