@@ -1,0 +1,97 @@
+/* Custom CSS for Navbar */
+.navbar-custom {
+    background-image: url(/TASK2/navbar-background.jpg); /* Specify the path to your background image */
+    background-size: cover;
+}
+
+/* Optional: Adjust text color for better readability */
+.navbar-custom .navbar-nav .nav-link {
+    color: white; /* Set the color of the navbar links */
+}
+
+/* Custom CSS to adjust font size */
+body {
+    font-size: 16px; /* Adjust the base font size as needed */
+}
+
+/* Custom CSS for header */
+.masthead {
+    background-image: url(images.jpg); /* Specify the path to your header background image */
+    background-size: cover;
+    padding: 100px 0; /* Add padding to adjust header height */
+    text-align: center; /* Center align text */
+}
+
+.site-heading h1 {
+    font-size: 3rem; /* Adjust heading font size */
+    margin-bottom: 15px; /* Adjust margin bottom for heading */
+}
+
+.site-heading .subheading {
+    font-size: 1.5rem; /* Adjust subheading font size */
+    margin-bottom: 50px; /* Adjust margin bottom for subheading */
+}
+
+/* Optional: Adjust font sizes for different screen sizes */
+@media (min-width: 1000px) {
+    .site-heading h1 {
+        font-size: 4rem;
+    }
+    .site-heading .subheading {
+        font-size: 2rem;
+    }
+}
+
+/* Increase footer height */
+footer {
+    height: 150px; /* Adjust height as needed */
+}
+
+/* Increase icon size */
+.fa-stack svg {
+    width: 40px; /* Adjust icon size as needed */
+    height: 40px; /* Adjust icon size as needed */
+}
+
+/* Increase text size */
+.footer-text {
+    font-size: 18px; /* Adjust text size as needed */
+}
+
+.footer-text {
+    color: black;
+}
+
+/* Center the icons within the circles */
+.fa-stack {
+    display: inline-block;
+    position: relative;
+}
+
+.fa-stack .fa-inverse {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Make circles black */
+.fa-stack svg.fa-circle {
+    color: black;
+}
+
+/* Make logos white */
+.fa-stack .fa-inverse {
+    color: white;
+}
+
+
+.post-preview a {
+    color: black; /* Set link color to black */
+    text-decoration: none; /* Remove underline */
+}
+
+.post-preview a:hover {
+    text-decoration: none; /* Remove underline on hover */
+}
+
